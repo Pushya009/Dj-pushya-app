@@ -1,0 +1,55 @@
+body{
+    background-size: cover;
+    font-family: 'Pacifico', cursive;
+}
+
+.heading{
+    background-color:blueviolet;
+    font-size: 25px;
+    color: plum;
+    width: 80%;
+    margin:0px;
+    letter-spacing: 5px;
+    box-shadow:10px 10px 10px violet;
+}
+
+.note{
+    color: aquamarine;
+    font-size:20px ;
+    letter-spacing: normal;
+}
+.div_speed{
+    float: left;
+}
+
+.disk_img{
+    height: 200px;
+    width: 200px;
+}
+
+#speed_button,#volume_button{
+    background-color: #00ffff;
+    box-shadow: plum;
+    border-radius: 20;
+    margin:15px ;
+}
+
+.div_volume{
+    float: right;
+}
+
+#play_song_button,#stop_song_button{
+    background: linear-gradient(blueviolet,plum,violet);
+    box-shadow: 5px 5px 5px lightgreen;
+    border-radius: 20;
+    margin:30;
+    border: 2px dashed powderblue;
+    width: 100px;
+    font-size: 20px;
+}
+
+canvas{
+    border: 5px  dotted #fcb603;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px yellowgreen;
+}
